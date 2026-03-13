@@ -1,16 +1,48 @@
-# React + Vite
+Here’s a **professional README** you can use for your Todo App repository. It’s written in a way that looks good on **GitHub and LinkedIn**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You can copy it directly into your `README.md`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 📝 React Todo App
 
-## React Compiler
+A simple and interactive **Todo List application built with React and Tailwind CSS**.
+This project allows users to add, complete, and delete tasks while keeping them saved using **localStorage**, so tasks remain even after refreshing the page.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ➕ Add new tasks
+* ✅ Mark tasks as completed
+* 🗑 Delete tasks
+* 💾 Persistent storage using **localStorage**
+* ⚡ Dynamic rendering with **React state**
+* 🎨 Clean UI styled with **Tailwind CSS**
+* 🔄 Real-time updates using React Hooks
+
+---
+
+## 🛠 Technologies Used
+
+* **React**
+* **JavaScript (ES6+)**
+* **Tailwind CSS**
+* **Vite**
+* **Local Storage API**
+
+
+
+
+
+## ⚙️ How It Works
+
+The application uses **React Hooks** to manage state and side effects:
+
+* **useState** – stores and updates the list of todos
+* **useRef** – accesses the input field
+* **useEffect** – saves todos to localStorage whenever the list updates
+
+
+
+
