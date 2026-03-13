@@ -48,7 +48,9 @@ const Todo = () => {
     }
   }, []);
   useEffect(() => {
+    if (todoList.length > 0){
     localStorage.setItem("todos", JSON.stringify(todoList));
+    }
   },[todoList] )
 
 
